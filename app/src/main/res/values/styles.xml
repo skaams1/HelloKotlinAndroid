@@ -7,5 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+<style name="Theme.App.Starting" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">#FFFFFF</item>
+    <item name="postSplashScreenTheme">@style/AppTheme</item>
+</style>
 </resources>
